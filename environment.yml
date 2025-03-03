@@ -1,0 +1,23 @@
+name: DLiP_GNN
+channels:
+  - conda-forge
+  - defaults
+  - pyg
+dependencies:
+  - python
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - pytorch
+  - torchvision
+  - scikit-learn
+  - networkx
+  - jupyter
+  - ipykernel
+  - pyg
+  - pip:
+    - torch-scatter
+    - torch-sparse
+    - torch-cluster
+    - torch-spline-conv
